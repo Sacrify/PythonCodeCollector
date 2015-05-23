@@ -16,7 +16,7 @@ class post:
     	web.ctx.headers = [('Content-Type', 'text/plain;charset=UTF-8')]
     	web.ctx.headers.append(('Access-Control-Allow-Origin', '*'))
         pdb.set_trace()
-        return "GuangMing is handsome! YuanWu is handsome, too!"
+        return web.data()
 
 
 if __name__ == "__main__":
